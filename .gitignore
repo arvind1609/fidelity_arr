@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+raw_data/
+results/
+results_idul/
+results_rct/
+results_v2/
+results_feedback_rag/
+results_feedback
+# RAG vector store, may contain non-anonymized data
+src/data/chroma_db/
+src/feedback/generation_rag.py
+logs/
+results_judge/
+results_ratings/
+allocation.py
+calibration.py
+pylintrc.txt
+
+.claude/
+figures/
+logs/
+.DS_Store
